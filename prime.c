@@ -3,7 +3,7 @@ void prime()
 {
     int n, i, flag = 0;
 
-    printf("Enter a positive integer: /n");
+    printf("Enter a positive integer: ");
     scanf("%d",&n);
 
     for(i=2; i<=n/2; ++i)
@@ -17,9 +17,9 @@ void prime()
     }
 
     if (flag==0)
-        printf("/n%d is a prime number.",n);
+        printf("%d is a prime number.",n);
     else
-        printf("/n%d is not a prime number.",n);
+        printf("%d is not a prime number.",n);
     
  // return 0;
 }
