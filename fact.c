@@ -4,7 +4,7 @@ void fact()
     int n, i;
     unsigned long long factorial = 1;
 
-    printf("Enter an integer: ");
+    printf("/n/nEnter an integer: ");
     scanf("%d",&n);
 
     // show error if the user enters a negative integer
@@ -17,7 +17,7 @@ void fact()
         {
             factorial *= i;              // factorial = factorial*i;
         }
-        printf("Factorial of %d = %llu", n, factorial);
+        printf("/n Factorial of %d = %llu", n, factorial /n);
     }
 
  }
